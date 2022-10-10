@@ -1,0 +1,78 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 52px 0;
+}
+
+.nav{
+    padding: 52px 0;
+}
+
+.nav_ul{
+    text-align: center;
+}
+
+.nav_li{
+    display: inline-block;
+}
+
+.nav_li:not(:last-of-type){
+    margin-right: 47px;
+}
+
+.nav_link{
+    font-weight: 700;
+    line-height: 25px;
+    color: #000000; 
+    text-decoration: none;
+}
+
+.background{
+    text-align: center;
+    padding: 138px 0;
+    background-image: url(../img/pexels-harrison-candlin-2441454\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.background_title{
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 98px;
+    color: #FFFFFF;
+}
+
+.background_button{
+    width: 420px;
+    height: 70px;
+    background: #FFFFFF;
+    border: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #162C38;
+    padding-top: 14px;
+}
+
+.description{
+    background-color: rgba(26, 110, 136, 0.71);
+    text-align: center;
+}
+
+.description_text{
+    max-width: 726px;
+    margin: 0 auto;
+    padding: 134px 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+}
