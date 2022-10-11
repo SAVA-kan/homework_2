@@ -76,3 +76,135 @@ body{
     line-height: 49px;
     color: #FFFFFF;
 }
+
+.content{
+    padding-top: 355px;
+    padding-bottom: 93px;
+    text-align: center;
+}
+
+.content_text{
+    max-width: 737px;
+    margin: auto;
+    padding-bottom: 216px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+}
+
+.text{
+    max-width: 737px;
+    margin: auto;
+    padding-bottom: 216px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    position: relative;
+}
+
+.content_text::before{
+    content: '';
+    background-color: #BFDEFB;
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    top: -130px;
+    left: -380px;
+}
+
+.content_text::after{
+    content: '';
+    background-color: #BFDEFB;
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    top: 30px;
+    right: -380px;
+}
+
+.text::before{
+    content: '';
+    background-color: #5C98AB;
+    position: absolute;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    top: -55px;
+    left: -35px;
+}
+
+.text::after{
+    content: '';
+    background-color: #BFDEFB;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    bottom: 135px;
+    right: -150px;
+}
+
+.div{
+    position: relative;
+}
+
+.div::before{
+    content: '';
+    background-color: #BFDEFB;
+    position: absolute;
+    width: 178px;
+    height: 121px;
+    top: -300px;
+    left: -100px;
+}
+
+.form_section{
+    max-width: 420px;
+    margin-bottom: 63px auto 100px;
+}
+
+.input_wrapper{
+    position: relative;
+    margin-bottom: 41px;
+}
+
+.input{
+    width:100%;
+    height: 96px;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 36px 0 11px 34px;
+    box-sizing: border-box;
+}
+
+.label{
+    position: absolute;
+    left: 31px;
+    top: 14px;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.input::placeholder{
+font-weight: 400;
+font-size: 36px;
+line-height: 49px;
+color: #000000;
+}
+
+.form_button{
+    width: 100%;
+    height: 92px;
+    background: #5C98AB;
+    border: none;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    margin-bottom: 400px;
+}
